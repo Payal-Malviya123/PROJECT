@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" href="pstyle.css"/>
+</head>
+<body>
+    <div class="form-card">
+    <h1>Expense Tracker</h1>
+
+    <form id="expense-form">
+        <label for="tit">Expense Title</label>
+        <input id=tit type="text" class="inp" onkeydown="return /[a-zA-Z ]/.test(event.key) || event.key === 'Backspace'"/><br><br>
+        
+        <label for="amt">Amount (&#8377)</label>
+        <input id=amt type="password" class="inp" onkeydown="return event.key >= 0 && event.key <= 9 || event.key === 'Backspace'"/><br><br>
+        
+        <label for="cate">Choose Category</label>
+        <select name=cate id="cate" class="inp">
+            <option>Select category</option>
+            <option >Food</option>
+            <option>Travel</option>
+            <option >Shoping</option>
+            <option >Bill</option>
+            <option >Health</option>
+            <option >Entertainment</option>
+            <option>Other</option>
+        </select><br><br>
+        
+        <label for="date" >Date</label>
+        <input id=date type="date" class="inp"/><br><br>
+       
+
+        <button id="btn">Add Expense</button><br><br>
+    </div>
+    <div>
+        <h3 class="total-box" id="total">Total:0 &#8377</h3>
+    </div>
+        <ul id="expense-list">
+
+        </ul>
+
+
+    </form>
+    
+    <script src="papp.js"></script>
+</body>
+</html>
