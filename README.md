@@ -58,7 +58,6 @@ Contributions are welcome!
 Feel free to open issues or submit a pull request.
 
 ## Author
-
 **Payal Malviya**
 
 Github link : https://github.com/Payal-Malviya123
