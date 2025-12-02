@@ -36,10 +36,10 @@ This project allows users to add their daily expenses, categorize them, view tot
 
 You can run this project in 2 ways:
 
-# Direct Run (Recommended)**  
+# Direct Run   
 Just download the files and open `index.html` in your browser.
 
-# VS Code Live Server**
+# VS Code Live Server
 - Open folder in VS Code  
 - Install Live Server extension  
 - Right click → **Open with Live Server**
@@ -57,7 +57,9 @@ Just download the files and open `index.html` in your browser.
 Contributions are welcome!  
 Feel free to open issues or submit a pull request.
 
-## 🧑‍💻 Author
+## Author
 
-**Payal Malviya**  
+**Payal Malviya**
+Github link : https://github.com/Payal-Malviya123
+Linkedin link : www.linkedin.com/in/payal-malviya-92b343361
 
